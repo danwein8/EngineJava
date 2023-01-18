@@ -27,8 +27,8 @@ public class Camera
 
 	public static void moveBackward(int d)
 	{
-		x -= d * cosA;
-		z -= d * sinA;
+		x -= d * sinA;
+		z -= d * cosA;
 	}
 
 	public static void turnRight(int dA)
